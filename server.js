@@ -7,6 +7,6 @@ const cors = require('cors')
 server.use(helmet())
 server.use(cors())
 server.use(express.json())
-server.use('', carsRouter)
+server.use('/api/cars', carsRouter)
 
 module.exports = server;
