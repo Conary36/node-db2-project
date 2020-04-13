@@ -5,8 +5,8 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('cars').insert([
-        {car_name: 'Ferrari', website: 'www.Ferrari.com'},
-        {car_name: 'LexusIFA', website: 'www.Lexus'}
+        {car_name: 'Ferrari', vin: '123fh79gh9g', model: 'Enzo', mileage: 89456.88}
+        
       ]);
     });
 };

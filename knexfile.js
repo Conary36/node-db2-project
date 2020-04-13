@@ -10,7 +10,7 @@ module.exports = {
     useNullAsDefault: true
   },
 
-  // staging: { //COMMENTED OUT DUE TO NON ESSENTIAL AT THE MOMENT***
+  // staging: {
   //   client: 'postgresql',
   //   connection: {
   //     database: 'my_db',

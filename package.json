@@ -4,11 +4,12 @@
   "description": "Node DB 2 Module Challenge",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Lambda School",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/Conary36/node-db2-project#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
     "knex": "^0.20.13",
     "sqlite3": "^4.1.1"
   }
